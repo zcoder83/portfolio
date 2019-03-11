@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>An example showing how the fullPage.js jQuery plugin works</title>
+    <title>JEONG YEONKWAN's Work</title>
 
     <!-- css files -->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700' rel='stylesheet' type='text/css'>    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet"> 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -17,7 +18,7 @@
   <body>
     <header>
       <div class="header-top clearfix">
-        <h1 class="l-left"><a href="#firstSection">Your Logo</a></h1>
+        <h1 class="l-left"><a href="#firstSection">JEONG YEONKWAN</a></h1>
         <a class="l-right toggle-menu" href="#">
           <i></i>
           <i></i>
@@ -46,19 +47,117 @@
             <a href="#fifthSection/1" title="Second Slide">Second Slide</a>
           </li>
         </ul>
+        <ul id="menu">
+            <li data-menuanchor="firstSection">
+              <a href="#firstSection" title="First Section">First Section</a>
+            </li>
+            <li data-menuanchor="secondSection">
+              <a href="#secondSection" title="Second Section">Second Section</a>
+            </li>
+            <li data-menuanchor="thirdSection">
+              <a href="#thirdSection" title="Second Section">Third Section</a>
+            </li>
+          </ul>
       </nav>
     </header>
 
     <div id="fullpage">
-      <section class="vertical-scrolling">
-        <h2>fullPage.js</h2>
-        <h3>This is the first section</h3>
-        <div class="scroll-icon">
-          <p>Jump into the last slide</p>
-          <a href="#fifthSection/1" class="icon-up-open-big"></a>
+      <section class="vertical-scrolling" id="firstSection">
+        <div class="horizontal-scrolling" id="who-i-am">
+          <img src="img/me.png" alt="myFace">
+          <h2>Front-end Developer & Pioneer</h2>
+          <h3>I love to code and pursue a beautiful code!</h3>
+          <p class="intro">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima harum tempora cumque rem mollitia odit magni dolorem eum aliquam! Labore.
+          </p>
         </div>
+        <div class="horizontal-scrolling myskill">
+          <div class="wrapper">
+            <h2 class="whatcando">What I can do</h2>
+            <h3>This is the second slide</h3> 
+            <div class="cando-container">
+              <div class="scene scene--card">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-html.png" alt="HTML5">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card01">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-CSS.png" alt="CSS3">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card02">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-js.png" alt="javascript">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card03">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-jquery.png" alt="html5">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card04">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-php.png" alt="PHP">
+                  </div>
+                  <div class="card__face card__face--back circle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card05">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-ps.png" alt="html5">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card06">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-illus.png" alt="html5">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card07">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-wp.png" alt="html5">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+              <div class="scene scene--card">
+                <div class="card card08">
+                  <div class="card__face card__face--front">
+                    <img src="img/skill-git.png" alt="html5">
+                  </div>
+                  <div class="card__face card__face--back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eum.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-scrolling">
+            <h2>fullPage.js</h2>
+            <h3>This is the third slide</h3> 
+            
+          </div>
       </section>
-      <section class="vertical-scrolling">
+      <section class="vertical-scrolling" id="mywork">
         <h2>fullPage.js</h2>
         <h3>This is the second section</h3>
       </section>
@@ -87,5 +186,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+        $('head').append('<link rel="stylesheet" type="text/css" href="css/reset.css">');
+      </script>
+    <script>
+      $('head').append('<link rel="stylesheet" type="text/css" href="css/style.css">');
+    </script>
   </body>
 </html>

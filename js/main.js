@@ -66,3 +66,41 @@ $(document).ready(function(){
     } 
   }); 
 });
+
+// 2019.03.04 zcoder83 version 1.0
+var card = document.querySelector('.card');
+card.addEventListener( 'click', function() {
+  card.classList.toggle('is-flipped');
+});
+var card01 = document.querySelector('.card01');
+card01.addEventListener( 'click', function() {
+  card01.classList.toggle('is-flipped');
+});
+var card02 = document.querySelector('.card02');
+card02.addEventListener( 'click', function() {
+  card02.classList.toggle('is-flipped');
+});
+var card03 = document.querySelector('.card03');
+card03.addEventListener( 'click', function() {
+  card03.classList.toggle('is-flipped');
+});
+var card04 = document.querySelector('.card04');
+card04.addEventListener( 'click', function() {
+  card04.classList.toggle('is-flipped');
+});
+var card05 = document.querySelector('.card05');
+card05.addEventListener( 'click', function() {
+  card05.classList.toggle('is-flipped');
+});
+var card06 = document.querySelector('.card06');
+card06.addEventListener( 'click', function() {
+  card06.classList.toggle('is-flipped');
+});
+var card07 = document.querySelector('.card07');
+card07.addEventListener( 'click', function() {
+  card07.classList.toggle('is-flipped');
+});
+var card08 = document.querySelector('.card08');
+card08.addEventListener( 'click', function() {
+  card08.classList.toggle('is-flipped');
+});
