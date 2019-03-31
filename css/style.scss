@@ -209,10 +209,10 @@ ul.slides {
    /* not target */
    
    @-webkit-keyframes 'noTarget' {
-    0% {
-   z-index: 75;
-   }
-    100% {
-   z-index: 75;
-   }
+      0% {
+    z-index: 75;
+    }
+      100% {
+    z-index: 75;
+    }
    }
